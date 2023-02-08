@@ -4,7 +4,8 @@
     angular.module('myFirstApp', [])
 
         .controller('MyFirstController', function ($scope) {
-            $scope.name = "Nirmal";
+            $scope.name = "";
+            $scope.companyName = "";
             $scope.sayHello = function () {
                 return "Welcome to AngularJS"
             };
